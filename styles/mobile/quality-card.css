@@ -1,0 +1,27 @@
+.quality-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 0;
+}
+.quality-card {
+    width: 76vw;
+    background-color: var(--light-pink);
+    height: 25vh;
+    margin: 8vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.quality-card-text {
+    color: var(--black);
+    font-size: 2.8rem;
+    margin: 16px 0;
+}
+.quality-button {
+    margin-top: 8px;
+    font-size: 1.6rem;
+}

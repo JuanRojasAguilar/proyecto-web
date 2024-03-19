@@ -33,6 +33,11 @@
     font-size: 1.6rem;
 }
 
+.about-button {
+    height: 40px;
+    font-size: 1.6rem;
+}
+
 .about-text-container {
     display: flex;
     align-items: center;
