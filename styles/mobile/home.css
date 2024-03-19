@@ -1,0 +1,42 @@
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title {
+    color: var(--orange);
+    font-size: 5.2rem;
+    margin: 40px 0 8px 0;
+    font-weight: 400;
+}
+
+.main-subtitle-container {
+    width: 60vw;
+    margin-bottom: 20px;
+    flex-wrap: wrap-reverse;
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.main-subtitle {
+    margin: 0;
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.main-button {
+    height: 28px;
+    width: 100px;
+    font-weight: 500;
+    background: var(--orange);
+    border: 0;
+    color: var(--white);
+}
+.main-image {
+    scale: 1.4 1;
+    flex-basis: 300px;
+    margin: 52px 0;
+}
+

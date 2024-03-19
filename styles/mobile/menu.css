@@ -1,0 +1,67 @@
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-title {
+    color: var(--orange);
+    font-size: 1.6rem;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.menu-disclaimer {
+    color: var(--white);
+    font-size: 3.2rem;
+    align-self: center;
+    text-align: center;
+    width: 90vw;
+    margin-top: 0;
+}
+.food-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+    width: 90vw;
+    overflow-y: scroll;
+    margin-bottom: 40px;
+}
+.food-card {
+    position: relative;
+    background: var(--light-pink); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 76vw;
+    height: 88vw;
+    min-width: max-content;
+}
+.plus-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    align-self: flex-end;
+    background: var(--orange);
+}
+.food-image {
+    height: 60%;
+    padding: 12px;
+}
+.food-name,
+.food-category,
+.food-price {
+    margin: 0;
+}
+.food-name {
+    color: var(--black);
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+.food-category {
+    color: var(--black);
+    font-size: 2rem;
+}
+.food-price {
+    color: var(--orange);
+    font-size: 2rem;
+}
