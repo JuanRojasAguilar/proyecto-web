@@ -3,14 +3,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: auto;
+    height: max-content;
     margin: 0;
 }
 .quality-card {
-    width: 76vw;
+    border-radius: 8px;
+    width: 78vw;
     background-color: var(--light-pink);
-    height: 25vh;
-    margin: 8vh 0;
+    height: 20vh;
+    margin: 4vh 0;
     display: flex;
     flex-direction: column;
     align-items: center;

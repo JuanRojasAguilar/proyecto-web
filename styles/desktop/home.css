@@ -1,0 +1,53 @@
+.main-section {
+    padding-top: 12vh;
+    height: 88vh;
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 50%;
+    grid-template-areas:
+        "title image"
+        "disclaimer image"
+        ". image"
+        ;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    align-self: flex-end;
+    justify-self: center;
+    text-align: left;
+    font-size: 8.8rem;
+    grid-area: title;
+    margin: 0;
+}
+
+.main-subtitle-container {
+    width: auto;
+    margin: 0;
+    display: inherit;
+    align-self: flex-start;
+    grid-area: disclaimer;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.main-subtitle {
+    display: inherit;
+    justify-self: center;
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.main-button {
+    grid-area: disclaimer;
+    display: inline;
+    justify-self: center;
+}
+.main-image {
+    grid-area: image;
+    align-self: center;
+    width: 50%;
+    justify-self: center;
+}
+

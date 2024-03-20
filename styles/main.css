@@ -19,6 +19,6 @@ body {
   box-sizing: border-box;
 }
 section {
-    margin-top: 8vh;
+    padding-top: 8vh;
     height: 92vh;
 }

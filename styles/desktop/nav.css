@@ -1,0 +1,22 @@
+.nav {
+    height: 12vh;
+    padding: 0 40px;
+    width: calc(100% - 80px);
+}
+.nav-link-container {
+    gap: 40px;
+}
+.nav-link {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 4px 8px;
+    transition: 0.1s ease-in;
+}
+.nav-link:hover {
+    border: 2px dotted green;
+    padding: 4px 6px;
+}
+.nav_menu {
+    display: none;
+}

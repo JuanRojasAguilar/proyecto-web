@@ -22,7 +22,7 @@
     flex-direction: column;
     align-items: center;
     gap: 10%;
-    width: 90vw;
+    width: 68vw;
     overflow-y: scroll;
     margin-bottom: 40px;
 }
@@ -32,19 +32,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 76vw;
-    height: 88vw;
+    width: 100%;
+    height: 84vw;
     min-width: max-content;
+    border-radius: 4px;
 }
 .plus-icon {
+    width: 40px;
+    height: 40px;
     position: absolute;
-    top: 8px;
-    right: 8px;
+    top: 10px;
+    right: 26px;
     align-self: flex-end;
     background: var(--orange);
 }
 .food-image {
-    height: 60%;
+    min-height: 30%;
     padding: 12px;
 }
 .food-name,
