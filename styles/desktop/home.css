@@ -16,10 +16,11 @@
 .main-title {
     align-self: flex-end;
     justify-self: center;
-    text-align: left;
+    text-align: center;
     font-size: 8.8rem;
     grid-area: title;
     margin: 0;
+    width: 88%;
 }
 
 .main-subtitle-container {
@@ -40,14 +41,17 @@
 }
 
 .main-button {
+    margin-top: 24px;
     grid-area: disclaimer;
     display: inline;
     justify-self: center;
 }
 .main-image {
+    scale: 1.4 1;
+    flex-shrink: 1;
     grid-area: image;
-    align-self: center;
-    width: 50%;
+    width: 280px;
+    height: 350px;
     justify-self: center;
 }
 

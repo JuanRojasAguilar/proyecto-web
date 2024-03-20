@@ -1,0 +1,34 @@
+.about-section {
+  padding-top: 12vh;
+  height: 88vh;
+  display: grid;
+  grid-template-areas:
+    "title image"
+    "discl image"
+    "text image"
+    "button image";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-title {
+  grid-area: title;
+}
+.about-disclaimer-container {
+  grid-area: discl;
+}
+.about-text-container {
+  grid-area: text;
+}
+.about-button, .main-button {
+  grid-area: button;
+}
+.about-image {
+  grid-area: image;
+  width: 50%;
+  scale: 1 1;
+  width: 200px;
+  height: 300px;
+}
