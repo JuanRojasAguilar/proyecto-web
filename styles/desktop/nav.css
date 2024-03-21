@@ -4,18 +4,18 @@
     width: calc(100% - 80px);
 }
 .nav-link-container {
-    gap: 40px;
-}
-.nav-link {
-    display: block;
+    display: flex;
+    gap: 20px;
     font-size: 1.6rem;
     font-weight: 600;
+    align-items: center;
+}
+.nav-link {
     padding: 4px 8px;
-    transition: 0.1s ease-in;
 }
 .nav-link:hover {
     border: 2px dotted green;
-    padding: 4px 6px;
+    padding: 2px 6px;
 }
 .nav_menu {
     display: none;

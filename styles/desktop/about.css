@@ -7,10 +7,12 @@
     "discl image"
     "text image"
     "button image";
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 50%;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
+    width: 100%;
+    overflow: hidden;
 }
 
 .about-title {
@@ -22,13 +24,14 @@
 .about-text-container {
   grid-area: text;
 }
-.about-button, .main-button {
+.about-button {
+  display: inline;
   grid-area: button;
 }
 .about-image {
   grid-area: image;
   width: 50%;
   scale: 1 1;
-  width: 200px;
+  width: 280px;
   height: 300px;
 }

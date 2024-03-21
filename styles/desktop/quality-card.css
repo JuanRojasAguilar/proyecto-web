@@ -1,0 +1,11 @@
+.quality-card {
+    height: 40vh;
+    justify-content: space-around;
+}
+.quality-card-text {
+    margin-top: 40px;
+    font-size: 4rem;
+}
+.quality-button {
+    margin-bottom: 40px;
+}

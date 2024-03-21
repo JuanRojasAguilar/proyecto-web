@@ -1,0 +1,20 @@
+.services-section {
+    padding-top: 12vh;
+    height: 88vh;
+    justify-content: space-between;
+}
+.services-title {
+    font-size: 3.2rem;
+}
+.services-disclaimer {
+    font-size: 4rem;
+    margin: 0;
+}
+.service-card-container {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    width: 88vw;
+    gap: 20px;
+    margin-bottom: 80px;
+}

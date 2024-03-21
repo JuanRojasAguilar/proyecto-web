@@ -1,7 +1,8 @@
-@import url("desktop/about.css");
-@import url("desktop/footer.css");
-@import url("desktop/home.css");
-@import url("desktop/menu.css");
+
 @import url("desktop/nav.css");
+@import url("desktop/home.css");
+@import url("desktop/about.css");
+@import url("desktop/menu.css");
 @import url("desktop/quality-card.css");
 @import url("desktop/services.css");
+@import url("desktop/footer.css");

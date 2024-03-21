@@ -12,19 +12,19 @@
     z-index: 1000;
 }
 
-.nav-link-container {
+.nav-container {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.nav-link {
-    display: none;
+.nav-link-container {
+
     padding-left: 8px;
 }
 
 .web-title {
-    font-size: 2rem;
+    font-size: 2.4rem;
     color: var(--orange);
     font-weight: 600;
 }
@@ -40,5 +40,11 @@
 
 .nav_menu:hover {
     cursor: pointer;
+}
+
+.nav_menu:hover {
+    .nav-link-container {
+        color: var(--orange);
+    }
 }
 

@@ -6,7 +6,7 @@
 }
 .services-title {
     color: var(--orange);
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 300;
     margin: 0;
 }
@@ -16,19 +16,22 @@
     text-align: center;
     margin-top: 0;
 }
-.service-card {
-    width: 76vw;
+.service-card-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-bottom: 40px;
+    gap: 40px;
+}
+.service-card {
+    width: 76vw;
 }
 .services-card-title {
     color: var(--orange);
     font-weight: 500;
     font-size: 2rem;
-    margin: 0;
+    margin-top: 0;
 }
 .services-card-text {
     color: var(--white);

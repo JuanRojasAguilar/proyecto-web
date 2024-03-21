@@ -32,9 +32,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    height: 84vw;
-    min-width: max-content;
     border-radius: 4px;
 }
 .plus-icon {
@@ -42,13 +39,12 @@
     height: 40px;
     position: absolute;
     top: 10px;
-    right: 26px;
+    right: 10px;
     align-self: flex-end;
     background: var(--orange);
 }
 .food-image {
-    min-height: 30%;
-    padding: 12px;
+    min-height: 20%;
 }
 .food-name,
 .food-category,

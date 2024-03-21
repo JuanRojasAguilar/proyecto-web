@@ -1,0 +1,17 @@
+.menu-section {
+    padding-top: 12vh;
+    height: 88vh;
+}
+.menu-disclaimer {
+    font-size: 3.6rem;
+}
+.food-display {
+    justify-content: center;
+    flex-flow: row nowrap;
+    overflow: auto;
+    width: 90vw;
+    gap: 80px;
+}
+.food-card {
+    height: 100%;
+}

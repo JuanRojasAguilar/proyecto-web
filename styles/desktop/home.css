@@ -17,7 +17,7 @@
     align-self: flex-end;
     justify-self: center;
     text-align: center;
-    font-size: 8.8rem;
+    font-size: 10rem;
     grid-area: title;
     margin: 0;
     width: 88%;
@@ -36,7 +36,7 @@
 .main-subtitle {
     display: inherit;
     justify-self: center;
-    font-size: 2rem;
+    font-size: 4rem;
     color: var(--white);
 }
 
