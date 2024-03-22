@@ -1,37 +1,26 @@
 .about-section {
   padding-top: 12vh;
   height: 88vh;
-  display: grid;
-  grid-template-areas:
-    "title image"
-    "discl image"
-    "text image"
-    "button image";
-  grid-template-columns: 1fr 50%;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  justify-content: center;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-    width: 100%;
-    overflow: hidden;
+    justify-content: center;
+  text-align: center;
 }
+.about-description {
+    width: 50%;
+    margin-right: 80px;
 
+}
 .about-title {
-  grid-area: title;
-}
-.about-disclaimer-container {
-  grid-area: discl;
-}
-.about-text-container {
-  grid-area: text;
-}
-.about-button {
-  display: inline;
-  grid-area: button;
+    font-size: 4rem;
 }
 .about-image {
-  grid-area: image;
-  width: 50%;
   scale: 1 1;
   width: 280px;
   height: 300px;
+  justify-self: center;
+}
+.about-text-container {
+    width: 100%;
 }

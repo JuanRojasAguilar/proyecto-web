@@ -22,8 +22,11 @@
     <header>
         <nav class="nav">
             <h3 class="web-title">Foods</h3>
-            <div class="nav-container">
-                <box-icon class="nav_menu" type="regular" name="math" color="white"></box-icon>
+            <label class="nav-container">
+                <input id="menu-toogle" class="menu-button">
+                <label for="menu-toogle">
+                    <box-icon class="nav_menu" type="regular" name="math" color="white"></box-icon>
+                </label>
                 <div class="nav-link-container">
                     <a class="nav-link" href="#home">Home</a>
                     <a class="nav-link" href="#about">About</a>
@@ -31,7 +34,7 @@
                     <a class="nav-link" href="#service">Service</a>
                     <a class="nav-link" href="#footer">Contact</a>
                 </div>
-            </div>
+            </label>
         </nav>
     </header>
     <main>
@@ -44,17 +47,19 @@
             <img class="main-image" src="images/home.png" alt="burguer image" width="200" />
         </section>
         <section id="about" class="about-section">
-            <h3 class="about-title">About us</h3>
-            <div class="about-disclaimer-container">
-                <p class="about-disclaimer">We speak the good food language</p>
+            <div class="about-description">
+                <h3 class="about-title">About us</h3>
+                <div class="about-disclaimer-container">
+                    <p class="about-disclaimer">We speak the good food language</p>
+                </div>
+                <div class="about-text-container">
+                    <p class="about-text">
+                        It is a long established fact that a be distracted by the readable
+                        content looking at its layout. The point of
+                    </p>
+                </div>
+                <button class="button about-button">Learn More</button>
             </div>
-            <div class="about-text-container">
-                <p class="about-text">
-                    It is a long established fact that a be distracted by the readable
-                    content looking at its layout. The point of
-                </p>
-            </div>
-            <button class="button about-button">Learn More</button>
             <img class="about-image" src="images/about.png" alt="" width="200" loading="lazy" />
         </section>
         <section id="menu" class="menu-section">
