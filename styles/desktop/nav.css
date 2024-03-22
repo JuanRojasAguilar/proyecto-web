@@ -9,6 +9,11 @@
     font-size: 1.6rem;
     font-weight: 600;
     align-items: center;
+    position: relative;
+    flex-direction: row;
+    background-color: var(--background-color);
+    height: inherit;
+    margin: 0;
 }
 .nav-link {
     padding: 4px 8px;

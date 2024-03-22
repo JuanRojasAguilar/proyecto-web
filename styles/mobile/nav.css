@@ -47,7 +47,6 @@
 .nav-link {
     color: var(--white);
     font-size: 2rem;
-    outline: 2px dotted green;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,6 +55,9 @@
     height: 12%;
     text-decoration: none;
     color: var(--white);
+}
+.nav-link:hover {
+    outline: 2px dotted green;
 }
 #menu-toogle:checked {
     .nav-link-container {
